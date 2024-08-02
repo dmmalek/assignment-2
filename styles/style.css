@@ -22,7 +22,10 @@ body {
 p {
   color: rgba(255, 255, 255, 0.5);
 }
-
+h2,
+h4 {
+  color: rgb(255, 255, 255);
+}
 /* header start here  */
 .header {
   background: linear-gradient(
@@ -246,6 +249,7 @@ a {
   display: flex;
   justify-content: space-between;
   padding: 1rem;
+  margin-bottom: 5rem;
 }
 .run-extra-desc {
   flex-basis: 40%;
@@ -276,5 +280,46 @@ a {
   max-width: 100%;
   border-radius: 1rem;
   object-fit: none;
-  object-position: 66% 33%;
+  object-position: 66% 25%;
+}
+
+/* BMI Calculator  */
+
+.bmi-caculator-title {
+  width: 46%;
+  margin: 5rem auto;
+  text-align: left;
+}
+.bmi-caculator-title h2 {
+  font-size: 2.5rem;
+}
+.bmi-caculator-title p {
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+}
+.chart-calculator {
+  background-color: rgb(34, 34, 34);
+}
+.chart-title {
+  font-size: 1.65rem;
+  margin-bottom: 2.5rem;
+}
+.chart-table,
+td,
+tr,
+th {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-collapse: collapse;
+  padding: 0.5rem 1rem;
+}
+thead {
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: left;
+}
+
+tbody {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.8rem;
 }
