@@ -90,4 +90,25 @@
     font-size: 0.9rem;
     padding: 1rem 0rem;
   }
+  /* Run an Extra Mile Easily  */
+  .run-extra {
+    flex-direction: column;
+    padding: 0.2rem;
+    margin: 3.5rem 0rem;
+  }
+  .run-extra-desc {
+    margin-left: 0rem;
+    margin: 1rem;
+  }
+  .run-extra-desc h2 {
+    font-size: 1.8rem;
+  }
+  .run-extra-desc p {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+  }
+  .run-extra-image img {
+    object-fit: contain;
+  }
 }

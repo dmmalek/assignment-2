@@ -275,4 +275,6 @@ a {
 .run-extra-image img {
   max-width: 100%;
   border-radius: 1rem;
+  object-fit: none;
+  object-position: 66% 33%;
 }
