@@ -237,3 +237,42 @@ a {
   line-height: 1rem;
   letter-spacing: 0.2px;
 }
+
+/* Run an Extra Mile Easily  */
+.run-extra {
+  color: rgb(255, 255, 255);
+  background-color: rgb(34, 34, 34);
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.run-extra-desc {
+  flex-basis: 40%;
+  margin-left: 2rem;
+  margin-top: 1.2rem;
+}
+.run-extra-desc h2 {
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 1rem;
+}
+.run-extra-desc p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-bottom: 3rem;
+}
+.run-extra-desc a {
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0.6rem 2.5rem;
+  border-radius: 2.5rem;
+}
+.run-extra-image {
+  flex-basis: 40%;
+  margin: 1rem;
+}
+.run-extra-image img {
+  max-width: 100%;
+  border-radius: 1rem;
+}
