@@ -93,8 +93,8 @@
   /* Run an Extra Mile Easily  */
   .run-extra {
     flex-direction: column;
-    padding: 0.2rem;
-    margin: 3.5rem 0rem;
+    padding: 2rem;
+    margin: 3.5rem auto;
   }
   .run-extra-desc {
     margin-left: 0rem;
@@ -107,8 +107,56 @@
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.3px;
+    margin-bottom: 1.5rem;
+  }
+  .run-extra-desc a {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 1rem 2.5rem;
   }
   .run-extra-image img {
     object-fit: contain;
+  }
+
+  .form-child div {
+    width: 100%;
+  }
+
+  /* BMI Calculator  */
+  .bmi-caculator-title {
+    width: 100%;
+    margin: 5rem 0rem;
+  }
+  .bmi-caculator-title h2 {
+    margin-bottom: 0.8rem;
+    font-size: 2rem;
+  }
+  .chart {
+    margin-bottom: 2rem;
+  }
+  .chart-calculator {
+    flex-direction: column;
+  }
+  .chart-calculator {
+    padding: 2rem 1rem;
+  }
+  .calculator-title h4 {
+    font-size: 1rem;
+  }
+  .calculator-title p {
+    font-size: 1rem;
+  }
+  input,
+  select {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    height: 3rem;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.6);
+    padding: 0.8rem 2.5rem 0.8rem 1rem;
+    margin: 0.7rem 0rem;
+    border: none;
+    width: 100%;
   }
 }

@@ -61,7 +61,7 @@
         </div>
       </div>
     </header>
-    <main class="container">
+    <main>
       <!-- Change your habit section  -->
       <section class="habit">
         <div class="habit-tittle">
@@ -71,7 +71,7 @@
             regardless of income or access to a gym.
           </p>
         </div>
-        <div class="habit-description">
+        <div class="habit-description container">
           <div class="card">
             <img
               class="workout-image"
@@ -119,7 +119,7 @@
         </div>
       </section>
       <!-- Run an Extra Mile Easily  -->
-      <section class="run-extra">
+      <section class="run-extra container">
         <div class="run-extra-desc">
           <h2>
             Run an Extra <br />
@@ -138,7 +138,7 @@
       </section>
       <!-- BMI Calculator -->
       <section class="bmi-caculator">
-        <div class="bmi-caculator-title">
+        <div class="bmi-caculator-title container">
           <h2>BMI Calculator</h2>
           <p>
             We believe fitness should be accessible to everyone, everywhere,
@@ -176,6 +176,64 @@
                 </tr>
               </tbody>
             </table>
+          </div>
+          <!-- calculate your bmi  -->
+          <div class="calculator">
+            <div class="calculator-title">
+              <h4>Calculate your BMI</h4>
+              <p>
+                We believe fitness should be accessible to everyone, everywhere,
+                regardless of income or access to a gym.
+              </p>
+            </div>
+            <div class="calculator-form">
+              <form class="form">
+                <div class="form-child">
+                  <div>
+                    <label for="height"></label>
+                    <input
+                      type="text"
+                      name="height"
+                      id="Height"
+                      value="Height/cm"
+                    />
+                  </div>
+
+                  <div>
+                    <label for="weight"></label>
+                    <input
+                      type="text"
+                      name="weight"
+                      id="weight"
+                      value="Weight/kg"
+                    />
+                  </div>
+                </div>
+                <div class="form-child">
+                  <div>
+                    <label for="age"></label>
+                    <input type="text" name="age" id="age" value="Age" />
+                  </div>
+                  <div>
+                    <label for="sex"></label>
+                    <select name="sex" id="sex">
+                      <option value="sex">Sex</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div>
+                  <label for="activity"></label>
+                  <select name="activity" id="activity" id="activity">
+                    <option value="activity">Select an activity factor</option>
+                  </select>
+                </div>
+
+                <div class="form-child">
+                  <button class="btn-primary calculate-btn">Calculate</button>
+                </div>
+              </form>
+            </div>
           </div>
         </div>
       </section>

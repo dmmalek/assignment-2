@@ -284,21 +284,24 @@ a {
 }
 
 /* BMI Calculator  */
-
 .bmi-caculator-title {
   width: 46%;
   margin: 5rem auto;
   text-align: left;
 }
 .bmi-caculator-title h2 {
+  font-weight: 900;
   font-size: 2.5rem;
 }
 .bmi-caculator-title p {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   line-height: 1.2rem;
 }
 .chart-calculator {
   background-color: rgb(34, 34, 34);
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 8rem;
 }
 .chart-title {
   font-size: 1.65rem;
@@ -322,4 +325,50 @@ thead {
 tbody {
   color: rgba(255, 255, 255, 0.5);
   font-size: 0.8rem;
+}
+/* Calculate your bmi  */
+.calculator {
+  flex-basis: 60%;
+}
+.chart {
+  flex-basis: 40%;
+}
+.calculator-title h4 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.calculator-title p {
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.2rem;
+  letter-spacing: 0.3px;
+  margin-bottom: 1rem;
+}
+.form-child {
+  display: flex;
+  gap: 1rem;
+}
+input,
+select {
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  width: 20rem;
+  height: 3rem;
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.6);
+  padding: 0.8rem 2.5rem 0.8rem 1rem;
+  margin: 0.7rem 0rem;
+  border: none;
+}
+#activity {
+  width: 100%;
+}
+.calculate-btn {
+  margin-top: 1rem;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 1rem 4rem;
+  border-radius: 2rem;
+  color: #ffffff;
+  border: none;
 }
