@@ -25,6 +25,7 @@ p {
 h2,
 h4 {
   color: rgb(255, 255, 255);
+  font-weight: 900;
 }
 /* header start here  */
 .header {
@@ -90,7 +91,6 @@ a {
 }
 .banner-decription h2 {
   font-size: 4rem;
-  font-weight: 900;
   line-height: 1.1;
 }
 .shape {
@@ -145,7 +145,6 @@ a {
 .trasparent-btn-tutorial h4 {
   color: rgb(250, 250, 249);
   font-size: 1.3rem;
-  font-weight: 900;
   line-height: 1rem;
   letter-spacing: 0.1rem;
 }
@@ -180,7 +179,6 @@ a {
 .trasparent-btn-free h4 {
   color: rgb(255, 255, 255);
   font-size: 2rem;
-  font-weight: 900;
   line-height: 1.8rem;
   letter-spacing: 0.8px;
 }
@@ -202,7 +200,6 @@ a {
 }
 .habit-tittle h2 {
   font-size: 4rem;
-  font-weight: 900;
 }
 .habit-tittle p {
   width: 50%;
@@ -258,7 +255,6 @@ a {
 }
 .run-extra-desc h2 {
   font-size: 3rem;
-  font-weight: 900;
   margin-bottom: 1rem;
 }
 .run-extra-desc p {
@@ -290,7 +286,6 @@ a {
   text-align: left;
 }
 .bmi-caculator-title h2 {
-  font-weight: 900;
   font-size: 2.5rem;
 }
 .bmi-caculator-title p {
@@ -371,4 +366,36 @@ select {
   border-radius: 2rem;
   color: #ffffff;
   border: none;
+}
+/* Meet Our team  */
+.team-title {
+  width: 50%;
+  margin: 5rem auto;
+  text-align: center;
+}
+.team-title h2 {
+  font-size: 2.8rem;
+}
+.team-title p {
+  font-size: 0.85rem;
+}
+.team-image {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
+  row-gap: 2rem;
+  padding: 1rem;
+}
+.trainer {
+  position: relative;
+}
+.trainer img {
+  width: 22rem;
+  height: 17rem;
+  border-radius: 1rem;
+}
+.trainer-details {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
 }
