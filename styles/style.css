@@ -446,6 +446,7 @@ select {
   height: 17rem;
   border-radius: 1rem;
   opacity: 0.8;
+  object-fit: cover;
 }
 .trainer-details {
   position: absolute;
