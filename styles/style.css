@@ -63,6 +63,7 @@ h4 {
 .logo h1 {
   font-size: 2rem;
   color: #e6533c;
+  font-style: italic;
 }
 .home {
   padding: 0.4rem 1.5rem;
@@ -387,7 +388,7 @@ select {
   grid-template-columns: repeat(3, 1fr);
   place-items: center;
   gap: 1.2rem;
-  padding: 1rem;
+  padding: 1.2rem;
   background-color: rgb(34, 34, 34);
   border-radius: 1.2rem;
 }
@@ -409,4 +410,50 @@ select {
 .trainer-details h4 {
   /* font-size: 1; */
   font-weight: 900;
+}
+/* footer section start here  */
+footer {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.footer {
+  padding: 4rem 0rem;
+  display: flex;
+  gap: 6rem;
+}
+.footer-left {
+  flex-basis: 50%;
+}
+.footer-left h2 {
+  font-size: 4rem;
+  color: #e6533c;
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+.footer-left p {
+  font-size: 0.8rem;
+}
+.footer-right {
+  flex-basis: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+li {
+  font-size: 1.3rem;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.5);
+  padding-bottom: 0.5rem;
+}
+.footer-right h4 {
+  font-size: 1.8rem;
+  padding-bottom: 2rem;
+  font-weight: 700;
+}
+.horizontal {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.copyright {
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 1rem;
+  letter-spacing: 0.2px;
 }
