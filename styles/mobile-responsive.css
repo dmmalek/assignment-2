@@ -122,7 +122,14 @@
   .form-child div {
     width: 100%;
   }
-
+  /* Unique section start here  */
+  .unique {
+    flex-direction: column;
+  }
+  .unique-details h4 {
+    font-size: 1.9rem;
+    text-align: left;
+  }
   /* BMI Calculator  */
   .bmi-caculator-title {
     width: 100%;
@@ -174,6 +181,9 @@
   }
   .team-title h2 {
     font-size: 1.9rem;
+  }
+  .team-title p {
+    font-size: 1rem;
   }
   /* Footer start here  */
   .footer,

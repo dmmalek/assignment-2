@@ -42,7 +42,7 @@ h4 {
   box-sizing: border-box;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 2.5rem;
-  padding: 0.5rem 0.1rem;
+  padding: 5px;
 }
 .hambargur {
   display: none;
@@ -57,6 +57,7 @@ h4 {
 .nav-links {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   gap: 2rem;
   margin-right: 1.5rem;
 }
@@ -66,6 +67,7 @@ h4 {
   font-style: italic;
 }
 .home {
+  display: inline-block;
   padding: 0.4rem 1.5rem;
   border-radius: 1.5rem;
 }
@@ -155,7 +157,6 @@ a {
   font-weight: 400;
   line-height: 1.2rem;
   letter-spacing: 0.5px;
-  /* padding-top: 0.5rem; */
 }
 .circle {
   background-color: rgb(230, 83, 60);
@@ -236,7 +237,7 @@ a {
   padding-top: 0.5rem;
   font-size: 0.8rem;
   line-height: 1rem;
-  letter-spacing: 0.2px;
+  letter-spacing: 0.1px;
 }
 
 /* Run an Extra Mile Easily  */
@@ -278,6 +279,44 @@ a {
   border-radius: 1rem;
   object-fit: none;
   object-position: 66% 25%;
+}
+/* Unique Section  */
+.unique {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.unique-details {
+  flex-basis: 50%;
+}
+.unique-details p {
+  font-size: 1.1rem;
+  color: rgb(255, 255, 255);
+  font-size: 400;
+}
+.unique-group {
+  display: inline-block;
+  font-size: 1.2rem;
+  border: 2px solid rgb(95, 114, 82);
+  padding: 0.3rem 1rem;
+  border-radius: 1rem;
+  margin-bottom: 2.5rem;
+}
+.unique-details h4 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+.unique-image {
+  flex-basis: 50%;
+}
+.unique-flex {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+.unique-image img {
+  width: 100%;
+  border-radius: 1rem;
 }
 
 /* BMI Calculator  */
@@ -379,6 +418,7 @@ select {
 }
 .team-title h2 {
   font-size: 2.8rem;
+  margin-bottom: 1rem;
 }
 .team-title p {
   font-size: 0.85rem;
@@ -441,7 +481,6 @@ li {
   font-size: 1.3rem;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.5);
-  padding-bottom: 0.5rem;
 }
 .footer-right h4 {
   font-size: 1.8rem;
