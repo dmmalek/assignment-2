@@ -159,4 +159,20 @@
     border: none;
     width: 100%;
   }
+
+  /* Meet Our Team  */
+  .team-image {
+    grid-template-columns: 1fr;
+  }
+  .hide {
+    display: none;
+  }
+  .team-title {
+    width: 100%;
+    margin: 2rem auto;
+    text-align: center;
+  }
+  .team-title h2 {
+    font-size: 1.9rem;
+  }
 }
