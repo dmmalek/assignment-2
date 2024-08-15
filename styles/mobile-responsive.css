@@ -1,6 +1,6 @@
 @media screen and (max-width: 576px) {
   .container {
-    padding: 0 1rem;
+    padding: 0rem 1rem;
     max-width: 90%;
   }
 
@@ -16,6 +16,7 @@
   .banner {
     flex-direction: column;
   }
+
   .banner-decription {
     width: 100%;
   }
@@ -37,6 +38,7 @@
   }
   .banner-image {
     width: 100%;
+    justify-content: center;
   }
   /* banner trasparent button  */
 
@@ -56,15 +58,14 @@
     padding: 0.5rem 0.7rem;
   }
   .trasparent-btn-free {
-    top: 39%;
-    right: 7%;
-    width: 9rem;
+    top: 38%;
+    right: 6%;
   }
   .trasparent-btn-free h4 {
     font-size: 1.8rem;
   }
   .trasparent-btn-free p {
-    font-size: 0.6rem;
+    font-size: 0.65rem;
   }
   .habit {
     margin: 1rem auto 0rem;
@@ -74,11 +75,9 @@
     flex-direction: column;
     justify-content: center;
   }
-  .card-details h4 {
-    font-size: 1.8rem;
-  }
+
   .card-details p {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
   }
   .habit-tittle h2 {
@@ -93,7 +92,7 @@
   /* Run an Extra Mile Easily  */
   .run-extra {
     flex-direction: column;
-    padding: 2rem;
+    padding: 1rem;
     margin: 3.5rem auto;
   }
   .run-extra-desc {
@@ -148,11 +147,8 @@
   .chart-calculator {
     padding: 2rem 1rem;
   }
-  .calculator-title h4 {
-    font-size: 1rem;
-  }
   .calculator-title p {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   input,
   select {
@@ -183,7 +179,7 @@
     font-size: 1.9rem;
   }
   .team-title p {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   /* Footer start here  */
   .footer,
@@ -194,5 +190,75 @@
 
   .footer-right {
     margin-bottom: 2rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .container,
+  .run-extra {
+    padding: 0rem;
+  }
+  .banner-image {
+    justify-content: center;
+  }
+  .banner-image img {
+    width: 100%;
+  }
+  .trasparent-btn-tutorial {
+    border-radius: 12px;
+    padding: 1rem 0.5rem;
+    gap: 0.3rem;
+    position: absolute;
+    bottom: 25%;
+    right: 50%;
+  }
+  .trasparent-btn-tutorial h4 {
+    font-size: 1rem;
+    line-height: 0.8rem;
+    letter-spacing: 0.1rem;
+  }
+  #transparent-paragraph {
+    font-size: 0.8rem;
+    line-height: 0.9rem;
+  }
+  .circle {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+  }
+
+  .trasparent-btn-free {
+    border-radius: 12px;
+    padding: 0.7rem;
+    position: absolute;
+    top: 41.5%;
+    right: -3%;
+  }
+  .trasparent-btn-free h4 {
+    font-size: 1.8rem;
+    font-weight: 900;
+    line-height: 30.24px;
+    letter-spacing: 0.76px;
+  }
+  .trasparent-btn-free p {
+    font-size: 0.7rem;
+    font-weight: 400;
+    line-height: 0.8rem;
+    letter-spacing: 0.1px;
+  }
+
+  .bmi-caculator-title {
+    padding: 0rem 1rem;
+  }
+  .trainer img {
+    height: 15rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  .trasparent-btn-free {
+    top: 38%;
+    right: 0%;
+  }
+  .trainer img {
+    height: 15rem;
   }
 }
