@@ -249,6 +249,7 @@
   .bmi-caculator-title {
     padding: 0rem 1rem;
   }
+
   .trainer img {
     height: 15rem;
   }
@@ -257,6 +258,9 @@
   .trasparent-btn-free {
     top: 38%;
     right: 0%;
+  }
+  .team-image {
+    padding: 0.8rem;
   }
   .trainer img {
     height: 15rem;
